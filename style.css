@@ -10,3 +10,58 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.intro-chunk .title {
+  padding-left: 24px;
+  margin-bottom: 48px;
+}
+
+.intro-chunk p {
+  max-width: 400px;
+}
+
+.intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  box-shadow: 0 -8px hsl(0deg, 0%, 60%);
+  /* TODO: top shadow */
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.max-width-wrapper p {
+  padding: 24px;
+  padding-top: 0;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 0 8px hsl(0deg, 0%, 60%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  box-shadow: 0px 8px hsl(45deg, 100%, 40%);
+  padding: 16px 32px;
+  display: inline-block;
+  margin-left: -8px;
+}
+
+main .card p {
+  /* padding: 24px; */
+  /* padding-top: 0; */
+  margin: 0; /* TODO: why is this needed after adding inline-block to heading? */
+}
